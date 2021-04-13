@@ -6,7 +6,11 @@
 
 
 console.log("3. ","3" == 3);
+// checking just values.
+
 console.log("3. ","3" === 3);
+
+// check all kind of types and values
 
 
 // **Questions: Comment your answers in the js file.** 
@@ -32,11 +36,14 @@ console.log("3. ","3" === 3);
 // #### 2. Not
 // * Store the value `true` to a variable. Using a ternary operator,print the `false` option by checking the value of the initial variable.
 
-let firstVa = true,
-    secondVa = false,
-    access = secondVa ? "HTML" : "CSS";
+let firstVa = true;
+let access = firstVa ? "true" : "false";
 
-console.log( access + secondVa );  
+console.log( access);  
+
+let names = "Ronnie";
+let results = (names === "Ronnie") ? "true" : "false";
+console.log(results);
 
 // #### 3. Short Circuit
 // Given the code below, what will print when when we console log `name`? Comment your answer in the js file.
